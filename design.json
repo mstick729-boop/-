@@ -1,0 +1,693 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-06T21:20:33+00:00",
+  "title": "Design System: Хитър Петър",
+  "extensions": {
+    "colorMeta": {
+      "night": {
+        "role": "neutral",
+        "displayName": "Night Garden",
+        "canonical": "#0A1612",
+        "oklch": "oklch(18.7% 0.019 171)",
+        "tonalRamp": [
+          "#040E0A",
+          "#1C2824",
+          "#384541",
+          "#576560",
+          "#778681",
+          "#9AA9A3",
+          "#BDCDC7",
+          "#E3F3ED"
+        ]
+      },
+      "canopy": {
+        "role": "neutral",
+        "displayName": "Canopy",
+        "canonical": "#10221B",
+        "oklch": "oklch(23.4% 0.028 167)",
+        "tonalRamp": [
+          "#080C0A",
+          "#1E2823",
+          "#37463F",
+          "#51675E",
+          "#72887F",
+          "#98AAA2",
+          "#C0CDC7",
+          "#E9F0ED"
+        ]
+      },
+      "moss": {
+        "role": "neutral",
+        "displayName": "Moss",
+        "canonical": "#183128",
+        "oklch": "oklch(29.0% 0.036 169)",
+        "tonalRamp": [
+          "#070D0A",
+          "#1B2823",
+          "#33473F",
+          "#4C695D",
+          "#6C8A7E",
+          "#94ABA2",
+          "#BDCEC7",
+          "#E7F1ED"
+        ]
+      },
+      "leaf": {
+        "role": "neutral",
+        "displayName": "Leaf Wall",
+        "canonical": "#23453A",
+        "oklch": "oklch(36.1% 0.045 171)",
+        "tonalRamp": [
+          "#050D0A",
+          "#182923",
+          "#2D493F",
+          "#456A5D",
+          "#658C7E",
+          "#8FADA2",
+          "#B9CFC7",
+          "#E5F2ED"
+        ]
+      },
+      "text": {
+        "role": "neutral",
+        "displayName": "Candlelit Linen",
+        "canonical": "#ECE4D2",
+        "oklch": "oklch(92.0% 0.026 87)",
+        "tonalRamp": [
+          "#0D0B07",
+          "#28251D",
+          "#474135",
+          "#686050",
+          "#898270",
+          "#ABA496",
+          "#CDC9BF",
+          "#F1EEE8"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Sage Grey",
+        "canonical": "#A9B5AA",
+        "oklch": "oklch(76.0% 0.020 148)",
+        "tonalRamp": [
+          "#090C0A",
+          "#212722",
+          "#3C453D",
+          "#59655A",
+          "#7A867B",
+          "#9EA89F",
+          "#C4CBC5",
+          "#ECF0EC"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Night Rule",
+        "canonical": "rgba(236, 228, 210, .14)",
+        "note": "Translucent hairline; no ramp."
+      },
+      "neon": {
+        "role": "secondary",
+        "displayName": "Neon Tube",
+        "canonical": "#FFE6C9",
+        "oklch": "oklch(93.8% 0.047 71)",
+        "tonalRamp": [
+          "#0F0A05",
+          "#2D2316",
+          "#4F3F2B",
+          "#745D41",
+          "#967E61",
+          "#B5A28B",
+          "#D5C7B7",
+          "#F5EDE4"
+        ]
+      },
+      "neon-1": {
+        "role": "secondary",
+        "displayName": "Amber Halo",
+        "canonical": "#FFB373",
+        "oklch": "oklch(82.6% 0.120 60)",
+        "tonalRamp": [
+          "#170700",
+          "#3C1B00",
+          "#673200",
+          "#944B00",
+          "#B96D21",
+          "#D39663",
+          "#EBBF9C",
+          "#FFE9D5"
+        ]
+      },
+      "neon-2": {
+        "role": "secondary",
+        "displayName": "Hot Orange Halo",
+        "canonical": "#FF7A33",
+        "oklch": "oklch(72.5% 0.181 45)",
+        "tonalRamp": [
+          "#1D0200",
+          "#4A0900",
+          "#7C1600",
+          "#B22300",
+          "#DB4E00",
+          "#F0834E",
+          "#FFB490",
+          "#FFE3CE"
+        ]
+      },
+      "neon-dim": {
+        "role": "secondary",
+        "displayName": "Unlit Tube",
+        "canonical": "#9C8C78",
+        "oklch": "oklch(64.9% 0.035 73)",
+        "tonalRamp": [
+          "#0E0A06",
+          "#2B241A",
+          "#4B4031",
+          "#6E5E4A",
+          "#907F6A",
+          "#B0A392",
+          "#D1C7BB",
+          "#F3EDE6"
+        ]
+      },
+      "bulb": {
+        "role": "secondary",
+        "displayName": "Bulb Filament",
+        "canonical": "#FFD7A6",
+        "oklch": "oklch(90.2% 0.078 72)",
+        "tonalRamp": [
+          "#120902",
+          "#32210A",
+          "#573C17",
+          "#7E5925",
+          "#A17A48",
+          "#BE9F79",
+          "#DCC5AA",
+          "#F9ECDC"
+        ]
+      },
+      "enamel": {
+        "role": "primary",
+        "displayName": "Enamel Red",
+        "canonical": "#C7372A",
+        "oklch": "oklch(55.3% 0.183 29)",
+        "tonalRamp": [
+          "#1E0000",
+          "#4C0201",
+          "#7F0603",
+          "#B70D06",
+          "#E04233",
+          "#F57C6C",
+          "#FFAFA1",
+          "#FFE0D7"
+        ]
+      },
+      "enamel-deep": {
+        "role": "primary",
+        "displayName": "Fired Enamel",
+        "canonical": "#A0281E",
+        "oklch": "oklch(46.8% 0.158 29)",
+        "tonalRamp": [
+          "#1C0201",
+          "#480B07",
+          "#781A12",
+          "#AD291F",
+          "#D55042",
+          "#EB8374",
+          "#FFB3A7",
+          "#FFE2DB"
+        ]
+      },
+      "enamel-ink": {
+        "role": "primary",
+        "displayName": "Enamel Ink",
+        "canonical": "#FFF4E4",
+        "oklch": "oklch(97.1% 0.024 77)",
+        "tonalRamp": [
+          "#0D0B08",
+          "#29241E",
+          "#484136",
+          "#6A6051",
+          "#8B8171",
+          "#ACA497",
+          "#CEC8BF",
+          "#F1EEE9"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Menu Paper",
+        "canonical": "#F2E6CF",
+        "oklch": "oklch(92.8% 0.033 84)",
+        "tonalRamp": [
+          "#0D0B06",
+          "#29241A",
+          "#494131",
+          "#6B604A",
+          "#8D816A",
+          "#ADA492",
+          "#CFC8BB",
+          "#F2EEE6"
+        ]
+      },
+      "postcard": {
+        "role": "neutral",
+        "displayName": "Postcard White",
+        "canonical": "#FBF5EA",
+        "oklch": "oklch(97.2% 0.016 83)",
+        "tonalRamp": [
+          "#0E0B05",
+          "#29241C",
+          "#464139",
+          "#666157",
+          "#878278",
+          "#AAA49A",
+          "#CEC8BE",
+          "#F4EEE3"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Menu Ink",
+        "canonical": "#221C16",
+        "oklch": "oklch(23.1% 0.015 67)",
+        "tonalRamp": [
+          "#0F0A05",
+          "#2A241E",
+          "#47413A",
+          "#676059",
+          "#888179",
+          "#ABA39C",
+          "#D0C8BF",
+          "#F5EDE4"
+        ]
+      },
+      "ink-muted": {
+        "role": "neutral",
+        "displayName": "Faded Ink",
+        "canonical": "#66594A",
+        "oklch": "oklch(47.2% 0.029 71)",
+        "tonalRamp": [
+          "#0E0B07",
+          "#2A241C",
+          "#4A4034",
+          "#6D5F4E",
+          "#8E806F",
+          "#AFA395",
+          "#D0C8BE",
+          "#F3EEE8"
+        ]
+      },
+      "ink-line": {
+        "role": "neutral",
+        "displayName": "Ink Rule",
+        "canonical": "rgba(34, 28, 22, .22)",
+        "note": "Translucent hairline; no ramp."
+      },
+      "error-ink": {
+        "role": "neutral",
+        "displayName": "Error Ink",
+        "canonical": "#9E2318",
+        "oklch": "oklch(45.9% 0.161 30)",
+        "tonalRamp": [
+          "#1C0201",
+          "#480A06",
+          "#791810",
+          "#AE271B",
+          "#D64F3F",
+          "#EC8373",
+          "#FFB3A6",
+          "#FFE2DA"
+        ]
+      },
+      "street-blue": {
+        "role": "tertiary",
+        "displayName": "Street Cobalt",
+        "canonical": "#1F3E6B",
+        "oklch": "oklch(36.5% 0.086 258)",
+        "tonalRamp": [
+          "#050B17",
+          "#15253D",
+          "#294268",
+          "#3E6295",
+          "#5F84BA",
+          "#89A7D2",
+          "#B5CBEA",
+          "#E3F0FF"
+        ]
+      },
+      "street-white": {
+        "role": "tertiary",
+        "displayName": "Street White",
+        "canonical": "#F6F0E2",
+        "oklch": "oklch(95.6% 0.020 88)",
+        "tonalRamp": [
+          "#0F0B03",
+          "#29251A",
+          "#464236",
+          "#666155",
+          "#878275",
+          "#AAA597",
+          "#CEC9BB",
+          "#F4EEE0"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "neon-sign": {
+        "displayName": "Neon Sign",
+        "purpose": "The restaurant name, inner-page H1s, phone number, figures; lit with the glow on night only."
+      },
+      "display": {
+        "displayName": "Display",
+        "purpose": "Leaf-wall words."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section titles and the menu card title."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Sub-section titles; hero H1 at 34-60px."
+      },
+      "dish-name": {
+        "displayName": "Dish Name",
+        "purpose": "Dish names on paper."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Running text, 30-42em measure."
+      },
+      "lead": {
+        "displayName": "Lead",
+        "purpose": "Intro paragraphs."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Nav, plaques, tabs, chips."
+      },
+      "price": {
+        "displayName": "Price",
+        "purpose": "Tabular prices; BGN at 13px faded ink beside EUR."
+      },
+      "script-note": {
+        "displayName": "Script Note",
+        "purpose": "Postcard and lightbox captions; red script subtitles on paper."
+      }
+    },
+    "shadows": [
+      {
+        "name": "neon-glow",
+        "value": "0 0 1px #fff7ec, 0 0 8px #FFB373, 0 0 22px #FF7A33, 0 0 46px rgba(255,110,40,.55), 0 0 96px rgba(255,90,30,.32)",
+        "purpose": "text-shadow for lit script on night only."
+      },
+      {
+        "name": "bulb-halo",
+        "value": "drop-shadow(0 0 6px rgba(255,170,90,.9))",
+        "purpose": "Bulbs on the string; bullets use box-shadow 0 0 8px #FF9B4A."
+      },
+      {
+        "name": "open-lamp",
+        "value": "0 0 6px #FFB373, 0 0 18px #FF7A33",
+        "purpose": "Lit open-now lamp."
+      },
+      {
+        "name": "postcard-drop",
+        "value": "0 1px 0 rgba(255,255,255,.4) inset, 0 30px 60px -20px rgba(0,0,0,.75), 0 8px 16px -8px rgba(0,0,0,.5)",
+        "purpose": "Postcards hung or lying on night."
+      },
+      {
+        "name": "card-on-table",
+        "value": "0 50px 100px -40px rgba(0,0,0,.85), 0 2px 0 rgba(255,255,255,.5) inset",
+        "purpose": "Menu card and order pad."
+      },
+      {
+        "name": "plaque-lift",
+        "value": "inset 0 0 0 1px rgba(255,255,255,.14), 0 10px 24px -10px rgba(0,0,0,.6)",
+        "purpose": "Enamel plaques."
+      },
+      {
+        "name": "street-plaque",
+        "value": "inset 0 0 0 6px #1F3E6B, inset 0 0 0 9px #F6F0E2, 0 30px 70px -30px rgba(0,0,0,.8)",
+        "purpose": "Painted inset border and cast shadow of the street plaque."
+      },
+      {
+        "name": "field-focus",
+        "value": "0 0 0 3px rgba(199,55,42,.18)",
+        "purpose": "Focus halo on paper fields; menu search on night uses 0 0 0 3px rgba(255,155,74,.2)."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0.23, 1, 0.32, 1)",
+        "purpose": "Default for arrivals, hover lifts, press, underline draws."
+      },
+      {
+        "name": "ease-in-out",
+        "value": "cubic-bezier(0.77, 0, 0.175, 1)",
+        "purpose": "Drawer circle reveal and menu panel wipe."
+      },
+      {
+        "name": "ease-drawer",
+        "value": "cubic-bezier(0.32, 0.72, 0, 1)",
+        "purpose": "Declared drawer curve; not referenced by current rules."
+      },
+      {
+        "name": "press",
+        "value": "scale(0.97) 160ms ease-out (round controls 0.95)",
+        "purpose": "Every pressable; identical in both motion modes."
+      },
+      {
+        "name": "neon-switch-on",
+        "value": "flicker 1600ms linear, then hum 5s ease-in-out infinite (opacity 1 to .9)",
+        "purpose": "Hero sign and inner-page titles, full motion."
+      },
+      {
+        "name": "neon-switch-on-reduced",
+        "value": "glow-in 1400ms ease-out (opacity .15 to 1, glow appears)",
+        "purpose": "Reduced-motion twin of the switch-on."
+      },
+      {
+        "name": "neon-light-on-arrival",
+        "value": "color + text-shadow 900ms ease",
+        "purpose": "neon--dim text lit by IntersectionObserver at 25%; both modes."
+      },
+      {
+        "name": "bulbs",
+        "value": "bulb-on 500ms staggered 70ms, then twinkle 3.6s/4.4s to .45 opacity",
+        "purpose": "String of bulbs; light-only, both modes."
+      },
+      {
+        "name": "postcard-drop",
+        "value": "drop 900ms ease-out (translate -40px, scale 1.06 to 1), staggered 150ms from 900ms",
+        "purpose": "Hero postcards, full motion; copy rises 18px over 800ms from 700ms."
+      },
+      {
+        "name": "postcard-fade-reduced",
+        "value": "fade 900ms ease-out (opacity 0 and blur 6px to clear), staggered 200ms from 700ms",
+        "purpose": "Reduced-motion twin for hero postcards and copy."
+      },
+      {
+        "name": "pointer-lean",
+        "value": "translate up to 18px x 14px, 600ms ease-out",
+        "purpose": "Hero postcards follow the pointer; fine pointer and full motion only."
+      },
+      {
+        "name": "rail-swing",
+        "value": "from rotate(tilt x -4), opacity .2; 900ms ease-out, staggered 90ms",
+        "purpose": "Postcards on the string arriving, full motion."
+      },
+      {
+        "name": "rail-swing-reduced",
+        "value": "from opacity .15 and blur 4px; 700ms ease",
+        "purpose": "Reduced-motion twin of the rail swing."
+      },
+      {
+        "name": "leaf-wall-part",
+        "value": "leaves translateX(+-101% x p), photo scale 1.18 to 1, copy fades at p > .86",
+        "purpose": "Sticky scroll scene, full motion."
+      },
+      {
+        "name": "leaf-wall-reduced",
+        "value": "leaves opacity 1 - p x 1.4, no translate, no scale",
+        "purpose": "Reduced-motion twin of the leaf wall."
+      },
+      {
+        "name": "feast-settle",
+        "value": "photo scale 1.12 to 1 with scroll",
+        "purpose": "Celebration scene, full motion only; static under reduced motion."
+      },
+      {
+        "name": "menu-wipe",
+        "value": "clip-path inset(0 100% 0 0) to inset(0) 560ms ease-in-out",
+        "purpose": "Menu tab panel change; both modes."
+      },
+      {
+        "name": "drawer-reveal",
+        "value": "clip-path circle 0% to 150% 620ms in / 520ms out ease-in-out; links fade 400ms staggered 60ms",
+        "purpose": "Mobile drawer; clip-based so kept in both modes."
+      },
+      {
+        "name": "lightbox",
+        "value": "opacity 250ms ease-out; image opacity + scale .96 to 1 280ms",
+        "purpose": "Postcard lightbox."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "small-phone",
+        "value": "559px"
+      },
+      {
+        "name": "phone",
+        "value": "759px"
+      },
+      {
+        "name": "tablet",
+        "value": "859px"
+      },
+      {
+        "name": "desktop-nav",
+        "value": "1080px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Enamel Plaque (red)",
+      "kind": "button",
+      "refersTo": "plaque-enamel",
+      "description": "Call and reserve actions; the only saturated solid on the night ground.",
+      "html": "<a class=\"ds-plaque\" href=\"#\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><path d=\"M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2\"/></svg> Обадете се 032 968 778</a>",
+      "css": ".ds-plaque { display: inline-flex; align-items: center; gap: 12px; min-height: 56px; padding: 0 28px; border-radius: 12px; background: var(--enamel, #C7372A); color: var(--enamel-ink, #FFF4E4); text-decoration: none; font-family: var(--f-text, Onest, 'Segoe UI', system-ui, sans-serif); font-weight: 500; font-size: 16px; letter-spacing: .01em; box-shadow: inset 0 0 0 1px rgba(255,255,255,.14), 0 10px 24px -10px rgba(0,0,0,.6); transition: transform 160ms cubic-bezier(0.23,1,0.32,1), background-color 200ms ease; } .ds-plaque svg { width: 18px; height: 18px; } .ds-plaque:hover { background: var(--enamel-deep, #A0281E); } .ds-plaque:active { transform: scale(0.97); } .ds-plaque:focus-visible { outline: 2px solid var(--neon-1, #FFB373); outline-offset: 3px; }"
+    },
+    {
+      "name": "Enamel Plaque (cream)",
+      "kind": "button",
+      "refersTo": "plaque-cream",
+      "description": "Secondary destinations such as the menu.",
+      "html": "<a class=\"ds-plaque-cream\" href=\"#\">Менюто</a>",
+      "css": ".ds-plaque-cream { display: inline-flex; align-items: center; min-height: 56px; padding: 0 28px; border-radius: 12px; background: var(--paper, #F2E6CF); color: var(--ink, #221C16); text-decoration: none; font-family: var(--f-text, Onest, 'Segoe UI', system-ui, sans-serif); font-weight: 500; font-size: 16px; box-shadow: inset 0 0 0 1px rgba(255,255,255,.14), 0 10px 24px -10px rgba(0,0,0,.6); transition: transform 160ms cubic-bezier(0.23,1,0.32,1), background-color 200ms ease; } .ds-plaque-cream:hover { background: #FFF5E3; } .ds-plaque-cream:active { transform: scale(0.97); } .ds-plaque-cream:focus-visible { outline: 2px solid var(--neon-1, #FFB373); outline-offset: 3px; }"
+    },
+    {
+      "name": "Enamel Plaque (ghost)",
+      "kind": "button",
+      "refersTo": "plaque-ghost",
+      "description": "Quiet action on night, e.g. send an inquiry.",
+      "html": "<a class=\"ds-plaque-ghost\" href=\"#\">Изпратете запитване</a>",
+      "css": ".ds-plaque-ghost { display: inline-flex; align-items: center; min-height: 56px; padding: 0 28px; border-radius: 12px; background: transparent; color: var(--text, #ECE4D2); text-decoration: none; font-family: var(--f-text, Onest, 'Segoe UI', system-ui, sans-serif); font-weight: 500; font-size: 16px; box-shadow: inset 0 0 0 1.5px rgba(236,228,210,.45); transition: transform 160ms cubic-bezier(0.23,1,0.32,1), background-color 200ms ease; } .ds-plaque-ghost:hover { background: rgba(236,228,210,.08); } .ds-plaque-ghost:active { transform: scale(0.97); } .ds-plaque-ghost:focus-visible { outline: 2px solid var(--neon-1, #FFB373); outline-offset: 3px; }"
+    },
+    {
+      "name": "Neon Sign",
+      "kind": "custom",
+      "refersTo": "typography.neon-sign",
+      "description": "The lit name; flickers on once then hums, or glows in under reduced motion.",
+      "html": "<div class=\"ds-night\"><p class=\"ds-neon\">Хитър Петър</p></div>",
+      "css": ".ds-night { background: #0A1612; padding: 32px; } .ds-neon { margin: 0; font-family: 'Marck Script', 'Segoe Script', cursive; font-size: 72px; line-height: .9; color: #FFE6C9; text-shadow: 0 0 1px #fff7ec, 0 0 8px #FFB373, 0 0 22px #FF7A33, 0 0 46px rgba(255,110,40,.55), 0 0 96px rgba(255,90,30,.32); animation: ds-flicker 1600ms linear both, ds-hum 5s ease-in-out 1800ms infinite; } @keyframes ds-flicker { 0% { opacity: .08; text-shadow: none; } 8% { opacity: 1; } 11% { opacity: .15; } 24% { opacity: .9; } 27% { opacity: .3; } 45%, 100% { opacity: 1; } } @keyframes ds-hum { 0%, 100% { opacity: 1; } 50% { opacity: .9; } } @keyframes ds-glow-in { from { opacity: .15; text-shadow: none; } to { opacity: 1; } } @media (prefers-reduced-motion: reduce) { .ds-neon { animation: ds-glow-in 1400ms ease-out both; } }"
+    },
+    {
+      "name": "Postcard",
+      "kind": "card",
+      "refersTo": "postcard",
+      "description": "The restaurant's own photograph as a white-bordered postcard with a script caption.",
+      "html": "<div class=\"ds-night\"><figure class=\"ds-pc\"><div class=\"ds-pc-img\"></div><figcaption>Лятната градина</figcaption></figure></div>",
+      "css": ".ds-night { background: #0A1612; padding: 40px; } .ds-pc { position: relative; margin: 0; width: 240px; background: #FBF5EA; padding: 10px 10px 40px; transform: rotate(-2.4deg); box-shadow: 0 1px 0 rgba(255,255,255,.4) inset, 0 30px 60px -20px rgba(0,0,0,.75), 0 8px 16px -8px rgba(0,0,0,.5); transition: transform 500ms cubic-bezier(0.23,1,0.32,1); } .ds-pc:hover { transform: rotate(0) translateY(-6px); } .ds-pc-img { aspect-ratio: 4/3; background: linear-gradient(135deg, #23453A, #183128); } .ds-pc figcaption { position: absolute; left: 14px; bottom: 8px; font: 400 21px/1 'Marck Script', cursive; color: #4a3f33; }"
+    },
+    {
+      "name": "Menu Card with Tabs",
+      "kind": "card",
+      "refersTo": "menu-card",
+      "description": "Cream paper with pill tabs and dish rows with dotted price leaders.",
+      "html": "<div class=\"ds-menu\"><div class=\"ds-tabs\"><button class=\"ds-tab\" aria-selected=\"true\">Салати</button><button class=\"ds-tab\">Скара</button></div><div class=\"ds-dish\"><span class=\"ds-dish-name\">Шопска салата</span><span class=\"ds-dots\"></span><span class=\"ds-price\">4,60 €<small>9,00 лв.</small></span></div></div>",
+      "css": ".ds-menu { position: relative; background: #F2E6CF; color: #221C16; border-radius: 6px; padding: 40px; box-shadow: 0 50px 100px -40px rgba(0,0,0,.85); } .ds-menu::before { content: ''; position: absolute; inset: 12px; border: 1px solid rgba(34,28,22,.22); border-radius: 3px; pointer-events: none; } .ds-tabs { display: flex; gap: 6px; margin-bottom: 24px; position: relative; } .ds-tab { border: 1.5px solid rgba(34,28,22,.22); background: transparent; color: #221C16; border-radius: 999px; padding: 10px 18px; font-family: var(--f-text, Onest, 'Segoe UI', system-ui, sans-serif); font-weight: 500; font-size: 15px; cursor: pointer; transition: background-color 200ms ease, color 200ms ease, border-color 200ms ease; } .ds-tab:hover { border-color: #221C16; } .ds-tab[aria-selected='true'] { background: #221C16; color: #F2E6CF; border-color: #221C16; } .ds-tab:focus-visible { outline: 2px solid #C7372A; outline-offset: 3px; } .ds-dish { display: flex; align-items: baseline; gap: 10px; } .ds-dish-name { font: 400 23px/1.2 Oranienbaum, Georgia, serif; } .ds-dots { flex: 1; border-bottom: 2px dotted rgba(34,28,22,.4); transform: translateY(-5px); } .ds-price { font-family: var(--f-text, Onest, 'Segoe UI', system-ui, sans-serif); font-weight: 500; font-size: 17px; font-variant-numeric: tabular-nums lining-nums; white-space: nowrap; } .ds-price small { font-size: 13px; color: #66594A; font-weight: 400; margin-left: 6px; }"
+    },
+    {
+      "name": "Street Plaque",
+      "kind": "custom",
+      "refersTo": "street-plaque",
+      "description": "Blue enamel address sign linking to directions.",
+      "html": "<a class=\"ds-street\" href=\"#\"><span class=\"ds-s2\">ул. „Васил Априлов“ 140</span><span class=\"ds-s3\">Пловдив · Упътване →</span></a>",
+      "css": ".ds-street { position: relative; display: block; background: #1F3E6B; color: #F6F0E2; border-radius: 18px; padding: 36px 48px; text-decoration: none; box-shadow: inset 0 0 0 6px #1F3E6B, inset 0 0 0 9px #F6F0E2, 0 30px 70px -30px rgba(0,0,0,.8); transition: transform 300ms cubic-bezier(0.23,1,0.32,1); } .ds-street::before, .ds-street::after { content: ''; position: absolute; top: 50%; width: 9px; height: 9px; margin-top: -4.5px; border-radius: 50%; background: #d9d2c0; } .ds-street::before { left: 22px; } .ds-street::after { right: 22px; } .ds-street:hover { transform: rotate(-.6deg) scale(1.01); } .ds-street:focus-visible { outline: 2px solid #FFB373; outline-offset: 3px; } .ds-s2 { display: block; font: 400 52px/.95 Oranienbaum, Georgia, serif; } .ds-s3 { display: block; margin-top: 18px; font-family: var(--f-text, Onest, 'Segoe UI', system-ui, sans-serif); font-size: 18px; }"
+    },
+    {
+      "name": "Order Pad Field",
+      "kind": "input",
+      "refersTo": "order-pad-field",
+      "description": "Text field on the inquiry pad.",
+      "html": "<div class=\"ds-pad\"><label class=\"ds-label\" for=\"ds-f\">Брой гости</label><input class=\"ds-field\" id=\"ds-f\" placeholder=\"например 40\"></div>",
+      "css": ".ds-pad { background: #F2E6CF; padding: 28px; border-radius: 6px; display: grid; gap: 6px; border-top: 14px solid #C7372A; } .ds-label { font-family: var(--f-text, Onest, 'Segoe UI', system-ui, sans-serif); font-size: 14px; font-weight: 500; color: #221C16; } .ds-field { min-height: 50px; padding: 10px 14px; border: 1.5px solid rgba(34,28,22,.3); border-radius: 8px; background: #FBF5EA; color: #221C16; font-family: var(--f-text, Onest, 'Segoe UI', system-ui, sans-serif); font-size: 16px; transition: border-color 200ms ease, box-shadow 200ms ease; } .ds-field::placeholder { color: #75684f; } .ds-field:focus { outline: none; border-color: #221C16; box-shadow: 0 0 0 3px rgba(199,55,42,.18); } .ds-field[aria-invalid='true'] { border-color: #9E2318; }"
+    },
+    {
+      "name": "Top Navigation",
+      "kind": "nav",
+      "refersTo": "label",
+      "description": "Small set text with an amber underline drawn from the left.",
+      "html": "<nav class=\"ds-nav\"><a href=\"#\" aria-current=\"page\">Начало</a><a href=\"#\">Менюто</a><a href=\"#\">Събития</a></nav>",
+      "css": ".ds-nav { display: flex; gap: 28px; background: #0A1612; padding: 20px 32px; } .ds-nav a { position: relative; padding: 6px 0; color: #ECE4D2; text-decoration: none; font-family: var(--f-text, Onest, 'Segoe UI', system-ui, sans-serif); font-size: 15px; font-weight: 500; } .ds-nav a::after { content: ''; position: absolute; left: 0; right: 0; bottom: 0; height: 1px; background: #FFB373; transform: scaleX(0); transform-origin: right; transition: transform 260ms cubic-bezier(0.23,1,0.32,1); } .ds-nav a:hover::after, .ds-nav a[aria-current='page']::after { transform: scaleX(1); transform-origin: left; } .ds-nav a:focus-visible { outline: 2px solid #FFB373; outline-offset: 3px; }"
+    },
+    {
+      "name": "Occasion Chip",
+      "kind": "chip",
+      "refersTo": "occasion-chip",
+      "description": "Informational outline pill naming a kind of celebration.",
+      "html": "<ul class=\"ds-occ\"><li>Сватби</li><li>Рождени дни</li><li>Бизнес обеди</li></ul>",
+      "css": ".ds-occ { list-style: none; margin: 0; padding: 24px; display: flex; gap: 10px; flex-wrap: wrap; background: #0A1612; } .ds-occ li { border: 1.5px solid rgba(236,228,210,.4); border-radius: 999px; padding: 8px 16px; color: #ECE4D2; font-family: var(--f-text, Onest, 'Segoe UI', system-ui, sans-serif); font-size: 15px; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Lit Sign Above the Hidden Garden",
+    "overview": "Every surface is an evening visit to the restaurant. The ground is a night garden, deep green going to black. On it hang the things a Balkan restaurant actually puts in front of a guest after dark: its name in a warm neon tube of script, red enamel plaques that say what to do, the restaurant's own photographs as white-bordered postcards pegged to a string of bulbs, a cream printed menu card with dotted price leaders, and a blue enamel street plaque with the address. Nothing is a generic card or a flat panel; each container is one of these objects, and its material decides its colour, corner and shadow.\n\nDensity is low and theatrical on the night ground (huge script, few words, one scene per screen) and high and orderly on the paper (two columns of dishes, tabular prices). The two never blend: night-ground surfaces glow, paper surfaces are printed. Motion is the sign switching on: tubes flicker and hum, bulbs light one by one, the leaf wall parts on scroll, postcards drop and swing, the menu wipes in like a turned page. Every one of these keeps a reduced-motion form built from opacity, glow, blur and clip, because the client's own machine runs with reduced motion; the motion is translated, never removed.",
+    "keyCharacteristics": [
+      "Night-garden green ground (`night`, `canopy`, `moss`, `leaf`) with warm radial glows, never a pale page.",
+      "Three faces with fixed jobs: Marck Script for light, Oranienbaum for speech, Onest for information.",
+      "Actions are enamel plaques; nothing else is a button.",
+      "Photographs are objects (postcards) or scenes (full-bleed with night shade), never bare grid tiles.",
+      "Paper is a separate material with its own ink, its own red, and no glow.",
+      "A two-tier motion grammar: movement under full motion, light and clarity under reduced motion."
+    ],
+    "rules": [
+      {
+        "name": "The Act-In-Red Rule",
+        "body": "On the night ground, solid enamel red appears only on things you press to call, reserve or send. Its scarcity is what makes the phone number findable.",
+        "section": "colors"
+      },
+      {
+        "name": "The Glow-Needs-Night Rule",
+        "body": "The neon glow stack exists only on night surfaces. On paper the same script is printed in `enamel-deep` with no shadow.",
+        "section": "colors"
+      },
+      {
+        "name": "The Three Jobs Rule",
+        "body": "Script is light, Oranienbaum is speech, Onest is fact. A price, hour or address is never set in script or display; the name of the place is never set in Onest.",
+        "section": "typography"
+      },
+      {
+        "name": "The Tabular Facts Rule",
+        "body": "Every price, phone number and capacity uses tabular lining numerals.",
+        "section": "typography"
+      },
+      {
+        "name": "The Objects Cast, Ground Glows Rule",
+        "body": "Shadows belong to objects and always fall downward and soft; colour light belongs to neon and bulbs. Nothing on the ground gets a shadow, and no object glows.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** set every surface on the night ground (`night`) and bring warmth with radial glows (amber at 12–16%, leaf at 65%), not with lighter backgrounds.",
+      "**Do** make every action an enamel plaque, red for calling or reserving, cream or ghost for everything else.",
+      "**Do** present photographs as postcards (10px white border, deeper bottom, slight rotation) or as full-bleed scenes under a night gradient.",
+      "**Do** put lists of prices on paper with dotted leaders and tabular numerals.",
+      "**Do** give every movement a reduced-motion twin built from opacity, blur, glow or clip, and keep light-only motion (bulbs, hum, menu wipe) unchanged in both modes.",
+      "**Do** restrict hover effects to `(hover: hover) and (pointer: fine)` and give every pressable a 0.95–0.97 press scale."
+    ],
+    "donts": [
+      "**Don't** put the neon glow on paper or on Onest text; on paper the script is printed in `enamel-deep`.",
+      "**Don't** use solid enamel red on night surfaces for anything that is not an action.",
+      "**Don't** add a fourth typeface or set facts (prices, hours, phone, address) in script or display.",
+      "**Don't** use stock food photography; only the restaurant's own photographs appear.",
+      "**Don't** drop motion entirely under reduced motion, and don't keep parallax, slides, swings or pointer-follow in it.",
+      "**Don't** give ground-level elements shadows or make objects glow; shadows are for objects, glow is for light sources."
+    ]
+  }
+}

@@ -1,0 +1,1446 @@
+{
+ "_note": "Меню на ресторант „Хитър Петър“. Редактирайте този файл и пуснете python3 build.py. price_eur/price_bgn = null означава, че цената не е посочена.",
+ "updated": "2026-11-06",
+ "categories": [
+  {
+   "id": "salati",
+   "title": "Салати и разядки",
+   "groups": [
+    {
+     "title": null,
+     "items": [
+      {
+       "name": "Шопска салата",
+       "portion": "350 гр.",
+       "price_eur": "5,71",
+       "price_bgn": "11,20",
+       "description": "домати, краставици, чушка, лук, мариновани маслини, настъргано сирене",
+       "featured": true
+      },
+      {
+       "name": "Овчарска салата",
+       "portion": "450 гр.",
+       "price_eur": "6,43",
+       "price_bgn": "12,60",
+       "description": "домати, краставици, чушка, лук, шунка, яйце, сирене, кашкавал, гъби, маслина"
+      },
+      {
+       "name": "Гръцка салата",
+       "portion": "350 гр.",
+       "price_eur": "5,92",
+       "price_bgn": "11,60",
+       "description": "домати, краставици, прясна чушка, лук, сирене, риган, маслини"
+      },
+      {
+       "name": "Млечна салата",
+       "portion": "300 гр.",
+       "price_eur": "5,30",
+       "price_bgn": "10,40",
+       "description": "цедено кисело мляко, краставици, копър, орехи, зехтин, чесън, поднесена с хрупкав селски хляб",
+       "featured": true
+      },
+      {
+       "name": "Балканска салата",
+       "portion": "350 гр.",
+       "price_eur": "5,97",
+       "price_bgn": "11,70",
+       "description": "домати, краставици, грилован патладжан, грилована тиквичка, натрошено сирене, овкусена с доматен дресинг"
+      },
+      {
+       "name": "Салата „Капрезе“",
+       "portion": "350 гр.",
+       "price_eur": "7,55",
+       "price_bgn": "14,80",
+       "description": "белени домати на шайби, моцарела, домашно песто"
+      },
+      {
+       "name": "Салата с авокадо",
+       "portion": "350 гр.",
+       "price_eur": "8,00",
+       "price_bgn": "15,80",
+       "description": "домати на шайби, моцарела, авокадо, мариновани маслини, балсамова редукция"
+      },
+      {
+       "name": "Салата „Витамина“",
+       "portion": "300 гр.",
+       "price_eur": "5,30",
+       "price_bgn": "10,40",
+       "description": "моркови, ябълки, орехи, стафиди, цитрусово-меден дресинг"
+      },
+      {
+       "name": "Салата „Цезар“ – вариация",
+       "portion": "350 гр.",
+       "price_eur": "7,55",
+       "price_bgn": "14,80",
+       "description": "айсберг, пилешки късчета, пармезан, хрупкави крутони, домашен дижонски дресинг"
+      },
+      {
+       "name": "Салата с рукола и киноа",
+       "portion": "350 гр.",
+       "price_eur": "6,22",
+       "price_bgn": "12,20",
+       "description": "айсберг, рукола, киноа, чери домати, пармезан, каперси, кедрови ядки, овкусена с балсамова редукция",
+       "featured": true
+      },
+      {
+       "name": "Салата с печени чушки",
+       "portion": "350 гр.",
+       "price_eur": "6,92",
+       "price_bgn": "13,60",
+       "description": "печени чушки, катък, чесън, зехтин, перца зелен лук, поднесена с хрупкав селски хляб",
+       "featured": true
+      },
+      {
+       "name": "Силата на Хитър Петър",
+       "portion": "400 гр.",
+       "price_eur": "5,70",
+       "price_bgn": "11,20",
+       "description": "ситно нарязан домат, киноа, магданоз, зелен лук, маслини, плочка бяло сирене",
+       "featured": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "supi",
+   "title": "Супи и предястия",
+   "groups": [
+    {
+     "title": "Супи",
+     "items": [
+      {
+       "name": "Таратор",
+       "portion": "350 гр.",
+       "price_eur": "2,15",
+       "price_bgn": "4,20",
+       "description": "",
+       "featured": true
+      },
+      {
+       "name": "Пилешка супа",
+       "portion": "350 гр.",
+       "price_eur": "2,46",
+       "price_bgn": "4,80",
+       "description": ""
+      },
+      {
+       "name": "Телешко варено",
+       "portion": "350 гр.",
+       "price_eur": "3,27",
+       "price_bgn": "6,40",
+       "description": ""
+      }
+     ]
+    },
+    {
+     "title": "Безмесни топли предястия",
+     "items": [
+      {
+       "name": "Запечено сирене „Бри“",
+       "portion": "200 гр.",
+       "price_eur": "6,22",
+       "price_bgn": "12,20",
+       "description": "с филирани бадеми, гарнирано със сладко от боровинки",
+       "featured": true
+      },
+      {
+       "name": "Броколи със сирена",
+       "portion": "350 гр.",
+       "price_eur": "6,27",
+       "price_bgn": "12,30",
+       "description": "запечени с моцарела, синьо сирене, топено сирене, сметанов сос"
+      },
+      {
+       "name": "Запечено козе сирене „Халуми“",
+       "portion": "250 гр.",
+       "price_eur": "6,32",
+       "price_bgn": "12,40",
+       "description": "гарнирано със сладко от боровинки"
+      },
+      {
+       "name": "Картофи четири сирена",
+       "portion": "600 гр.",
+       "price_eur": "6,53",
+       "price_bgn": "12,80",
+       "description": "запечени със сос от сирена и кашкавалена коричка",
+       "featured": true
+      },
+      {
+       "name": "Печурки, пълнени с топено сирене",
+       "portion": "250 гр.",
+       "price_eur": "5,71",
+       "price_bgn": "10,80",
+       "description": ""
+      },
+      {
+       "name": "Запечен кашкавал на плоча",
+       "portion": "250 гр.",
+       "price_eur": "5,92",
+       "price_bgn": "11,60",
+       "description": ""
+      },
+      {
+       "name": "Манатарки в масло",
+       "portion": "200 гр.",
+       "price_eur": "8,47",
+       "price_bgn": "16,60",
+       "description": "с ароматна прясна мащерка",
+       "featured": true
+      },
+      {
+       "name": "Тиквички по гръцки",
+       "portion": "250 гр.",
+       "price_eur": "5,92",
+       "price_bgn": "11,60",
+       "description": "в хрупкава панировка с чеснов сос"
+      },
+      {
+       "name": "Пресни пържени картофи",
+       "portion": "250 гр.",
+       "price_eur": "4,54",
+       "price_bgn": "8,90",
+       "description": ""
+      },
+      {
+       "name": "Хрупкави сирена с корнфлейкс",
+       "portion": "250 гр.",
+       "price_eur": "4,90",
+       "price_bgn": "9,60",
+       "description": ""
+      },
+      {
+       "name": "Хрупкави кашкавалчета",
+       "portion": "250 гр.",
+       "price_eur": "5,50",
+       "price_bgn": "10,80",
+       "description": "топени сиренца с корнфлейкс"
+      }
+     ]
+    },
+    {
+     "title": "Месни топли предястия",
+     "items": [
+      {
+       "name": "Гъши дроб на тиган",
+       "portion": "250 гр.",
+       "price_eur": "11,12",
+       "price_bgn": "21,80",
+       "description": "върху канапе от запечена ябълка, гарниран със сладко от боровинки",
+       "featured": true
+      },
+      {
+       "name": "Хрупкави пилешки филенца с корнфлейкс",
+       "portion": "250 гр.",
+       "price_eur": "6,00",
+       "price_bgn": "11,80",
+       "description": ""
+      },
+      {
+       "name": "Телешки език в масло",
+       "portion": "200 гр.",
+       "price_eur": "7,80",
+       "price_bgn": "15,40",
+       "description": ""
+      },
+      {
+       "name": "Шкембе в масло",
+       "portion": "200 гр.",
+       "price_eur": "5,20",
+       "price_bgn": "10,20",
+       "description": ""
+      },
+      {
+       "name": "Запечен език и шкембе с гъби и кашкавалена коричка",
+       "portion": "600 гр.",
+       "price_eur": "12,94",
+       "price_bgn": "25,40",
+       "description": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "osnovni",
+   "title": "Основни ястия",
+   "groups": [
+    {
+     "title": "Рибни предястия",
+     "items": [
+      {
+       "name": "Пушена сьомга",
+       "portion": "100 гр.",
+       "price_eur": "7,55",
+       "price_bgn": "14,80",
+       "description": "поднесена с хрупкав селски хляб и билково масло"
+      },
+      {
+       "name": "Маринована херинга",
+       "portion": "100 гр.",
+       "price_eur": null,
+       "price_bgn": null,
+       "description": "поднесена с хрупкав селски хляб"
+      },
+      {
+       "name": "Пушена пъстърва",
+       "portion": "100 гр.",
+       "price_eur": null,
+       "price_bgn": null,
+       "description": "поднесена с хрупкав селски хляб"
+      },
+      {
+       "name": "Плато пушена риба",
+       "portion": "200 гр.",
+       "price_eur": null,
+       "price_bgn": null,
+       "description": "пушена сьомга, пушена пъстърва, поднесени с хрупкав селски хляб и билково масло"
+      }
+     ]
+    },
+    {
+     "title": "Ястия с пилешко месо",
+     "items": [
+      {
+       "name": "Пилешка пържола на тиган",
+       "portion": "300 гр.",
+       "price_eur": "6,53",
+       "price_bgn": "12,80",
+       "description": "с гъбен сос и ароматна прясна мащерка"
+      },
+      {
+       "name": "Пилешко филе с манатарки",
+       "portion": "350 гр.",
+       "price_eur": "9,00",
+       "price_bgn": "17,80",
+       "description": "поднесено върху канапе от картофено пюре и ароматна прясна мащерка",
+       "featured": true
+      },
+      {
+       "name": "Пилешко филе със сос от четири сирена",
+       "portion": "350 гр.",
+       "price_eur": "8,57",
+       "price_bgn": "16,80",
+       "description": "гарнирано със задушени зеленчуци"
+      },
+      {
+       "name": "Патешко магре с портокал",
+       "portion": "400 гр.",
+       "price_eur": "13,08",
+       "price_bgn": "25,80",
+       "description": "гарнирано с гриловани зеленчуци и портокал",
+       "featured": true
+      }
+     ]
+    },
+    {
+     "title": "Скара",
+     "items": [
+      {
+       "name": "Свинска вратна пържола",
+       "portion": "250 гр.",
+       "price_eur": "6,42",
+       "price_bgn": "12,60",
+       "description": ""
+      },
+      {
+       "name": "Свинско бон филе",
+       "portion": "250 гр.",
+       "price_eur": "7,35",
+       "price_bgn": "14,40",
+       "description": ""
+      },
+      {
+       "name": "Свински ребърца",
+       "portion": "500 гр.",
+       "price_eur": "6,00",
+       "price_bgn": "11,80",
+       "description": ""
+      },
+      {
+       "name": "Пилешка пържола (филе или бут)",
+       "portion": "250 гр.",
+       "price_eur": "5,90",
+       "price_bgn": "10,80",
+       "description": ""
+      },
+      {
+       "name": "Пилешки крила",
+       "portion": "500 гр.",
+       "price_eur": "4,60",
+       "price_bgn": "8,60",
+       "description": ""
+      },
+      {
+       "name": "Телешки кебапченца (10 броя)",
+       "portion": "400 гр.",
+       "price_eur": "7,57",
+       "price_bgn": "14,80",
+       "description": ""
+      },
+      {
+       "name": "Мъжко мезе",
+       "portion": "900 гр.",
+       "price_eur": "15,20",
+       "price_bgn": "29,80",
+       "description": "плато от маринован свински врат, пилешка пържола, телешки кебапченца"
+      }
+     ]
+    },
+    {
+     "title": "Ястия с риба",
+     "items": [
+      {
+       "name": "Запечено филе от сьомга",
+       "portion": "200 гр.",
+       "price_eur": "11,66",
+       "price_bgn": "22,80",
+       "description": "поднесено със задушени зеленчуци"
+      },
+      {
+       "name": "Пъстърва на тиган или скара",
+       "portion": "200 гр.",
+       "price_eur": "6,44",
+       "price_bgn": "12,60",
+       "description": "с билкова коричка"
+      },
+      {
+       "name": "Лаврак, пълнен с градински подправки",
+       "portion": "400 гр.",
+       "price_eur": "9,29",
+       "price_bgn": "18,20",
+       "description": "",
+       "featured": true
+      },
+      {
+       "name": "Ципура със средиземноморски дресинг",
+       "portion": "400 гр.",
+       "price_eur": "9,29",
+       "price_bgn": "18,20",
+       "description": ""
+      },
+      {
+       "name": "Шаран на тиган или скара",
+       "portion": "100 гр.",
+       "price_eur": "7,55",
+       "price_bgn": "14,80",
+       "description": ""
+      },
+      {
+       "name": "Пържени калмари",
+       "portion": "350 гр.",
+       "price_eur": "8,36",
+       "price_bgn": "16,40",
+       "description": ""
+      },
+      {
+       "name": "Октопод по средиземноморски",
+       "portion": "170 гр.",
+       "price_eur": "14,32",
+       "price_bgn": "28,00",
+       "description": ""
+      },
+      {
+       "name": "Тигрови скариди",
+       "portion": "5 бр.",
+       "price_eur": "9,61",
+       "price_bgn": "18,80",
+       "description": ""
+      }
+     ]
+    },
+    {
+     "title": "Ястия с телешко месо",
+     "items": [
+      {
+       "name": "Телешко сукалче",
+       "portion": "400 гр.",
+       "price_eur": "9,60",
+       "price_bgn": "18,80",
+       "description": "с гриловани зеленчуци"
+      },
+      {
+       "name": "Телешки пепър стек",
+       "portion": "400 гр.",
+       "price_eur": "17,36",
+       "price_bgn": "34,00",
+       "description": "гарниран със задушени бейби моркови и броколи"
+      },
+      {
+       "name": "Телешко бон филе",
+       "portion": "400 гр.",
+       "price_eur": "17,36",
+       "price_bgn": "34,00",
+       "description": "поднесено върху канапе от картофено пюре и ароматни подправки",
+       "featured": true
+      },
+      {
+       "name": "Аржентински стек „Денвър“",
+       "portion": "300 гр.",
+       "price_eur": "17,36",
+       "price_bgn": "34,00",
+       "description": ""
+      }
+     ]
+    },
+    {
+     "title": "Ястия със свинско месо",
+     "items": [
+      {
+       "name": "Свинско бон филе с манатарки",
+       "portion": "350 гр.",
+       "price_eur": "10,00",
+       "price_bgn": "19,60",
+       "description": "с ароматна прясна мащерка"
+      },
+      {
+       "name": "Обезкостен печен свински джолан",
+       "portion": "400 гр.",
+       "price_eur": "8,87",
+       "price_bgn": "17,40",
+       "description": "поднесен с гриловани зеленчуци"
+      },
+      {
+       "name": "Свинско бон филе с гъбен сос",
+       "portion": "350 гр.",
+       "price_eur": "9,00",
+       "price_bgn": "17,80",
+       "description": "поднесено с картофено пюре"
+      },
+      {
+       "name": "Шницел по виенски",
+       "portion": "400 гр.",
+       "price_eur": "10,00",
+       "price_bgn": "19,60",
+       "description": "гарниран с пържени картофи"
+      },
+      {
+       "name": "Ребра на фурна",
+       "portion": "700 гр.",
+       "price_eur": "10,60",
+       "price_bgn": "20,80",
+       "description": "мариновани с пресни билки, поднесени с пикантен сос"
+      }
+     ]
+    },
+    {
+     "title": "Ястия с агнешко месо",
+     "items": [
+      {
+       "name": "Агнешки котлети на скара",
+       "portion": "250 гр.",
+       "price_eur": "8,57",
+       "price_bgn": "16,80",
+       "description": "мариновани с пресни билки"
+      },
+      {
+       "name": "Агнешко печено",
+       "portion": "400 гр.",
+       "price_eur": "11,43",
+       "price_bgn": "22,40",
+       "description": "гарнирано със задушен ориз с маслини и сушени домати",
+       "featured": true
+      },
+      {
+       "name": "Агнешки кебапчета",
+       "portion": "8 бр.",
+       "price_eur": null,
+       "price_bgn": null,
+       "description": ""
+      }
+     ]
+    },
+    {
+     "title": "Ризото",
+     "items": [
+      {
+       "name": "Ризото с манатарки",
+       "portion": "350 гр.",
+       "price_eur": "7,56",
+       "price_bgn": "14,80",
+       "description": "с ароматна прясна мащерка"
+      },
+      {
+       "name": "Ризото с пилешки късчета, гъби и пармезан",
+       "portion": "350 гр.",
+       "price_eur": "6,43",
+       "price_bgn": "12,60",
+       "description": ""
+      },
+      {
+       "name": "Ризото със зеленчуци",
+       "portion": "350 гр.",
+       "price_eur": "5,50",
+       "price_bgn": "10,80",
+       "description": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "garnituri",
+   "title": "Гарнитури и мезета",
+   "groups": [
+    {
+     "title": "Гарнитури",
+     "items": [
+      {
+       "name": "Пържени картофи",
+       "portion": "150 гр.",
+       "price_eur": "1,78",
+       "price_bgn": "3,50",
+       "description": ""
+      },
+      {
+       "name": "Картофи „соте“",
+       "portion": "150 гр.",
+       "price_eur": "1,78",
+       "price_bgn": "3,50",
+       "description": ""
+      },
+      {
+       "name": "Картофено пюре",
+       "portion": "150 гр.",
+       "price_eur": "1,78",
+       "price_bgn": "3,50",
+       "description": ""
+      },
+      {
+       "name": "Пресни зеленчуци",
+       "portion": "150 гр.",
+       "price_eur": "1,78",
+       "price_bgn": "3,50",
+       "description": "домати, краставици, зеле, моркови"
+      },
+      {
+       "name": "Задушени зеленчуци",
+       "portion": "200 гр.",
+       "price_eur": "1,78",
+       "price_bgn": "3,50",
+       "description": "броколи, бейби моркови, грах, царевица"
+      },
+      {
+       "name": "Гриловани зеленчуци",
+       "portion": "200 гр.",
+       "price_eur": "2,45",
+       "price_bgn": "4,80",
+       "description": "тиквичка, патладжан, лук, чушка, картоф",
+       "featured": true
+      }
+     ]
+    },
+    {
+     "title": "Сосове",
+     "items": [
+      {
+       "name": "Чеснов сос, майонеза, кетчуп",
+       "portion": "80 гр.",
+       "price_eur": "0,78",
+       "price_bgn": "1,50",
+       "description": ""
+      },
+      {
+       "name": "Барбекю, средиземноморски, пикантен",
+       "portion": "80 гр.",
+       "price_eur": "1,02",
+       "price_bgn": "2,00",
+       "description": ""
+      }
+     ]
+    },
+    {
+     "title": "Хляб",
+     "items": [
+      {
+       "name": "Хляб",
+       "portion": "70 гр.",
+       "price_eur": "0,82",
+       "price_bgn": "1,60",
+       "description": ""
+      },
+      {
+       "name": "Френски хляб",
+       "portion": "100 гр.",
+       "price_eur": "0,92",
+       "price_bgn": "1,80",
+       "description": ""
+      },
+      {
+       "name": "Чабата с маслини",
+       "portion": "70 гр.",
+       "price_eur": "0,92",
+       "price_bgn": "1,80",
+       "description": ""
+      },
+      {
+       "name": "Чеснова питка",
+       "portion": "70 гр.",
+       "price_eur": "0,92",
+       "price_bgn": "1,80",
+       "description": "",
+       "featured": true
+      },
+      {
+       "name": "Филийка хляб",
+       "portion": "1 бр.",
+       "price_eur": "0,15",
+       "price_bgn": "0,30",
+       "description": ""
+      }
+     ]
+    },
+    {
+     "title": "Мезета",
+     "items": [
+      {
+       "name": "Кашкавал",
+       "portion": "50 гр.",
+       "price_eur": "1,78",
+       "price_bgn": "3,50",
+       "description": ""
+      },
+      {
+       "name": "Сирене краве",
+       "portion": "50 гр.",
+       "price_eur": "1,28",
+       "price_bgn": "2,50",
+       "description": ""
+      },
+      {
+       "name": "Сирене овче",
+       "portion": "50 гр.",
+       "price_eur": "2,30",
+       "price_bgn": "4,50",
+       "description": ""
+      },
+      {
+       "name": "Сирене „Бри“",
+       "portion": "50 гр.",
+       "price_eur": "2,30",
+       "price_bgn": "4,50",
+       "description": ""
+      },
+      {
+       "name": "Синьо сирене",
+       "portion": "50 гр.",
+       "price_eur": "2,30",
+       "price_bgn": "4,50",
+       "description": ""
+      },
+      {
+       "name": "Кашкавал „Ементал“",
+       "portion": "50 гр.",
+       "price_eur": "2,30",
+       "price_bgn": "4,50",
+       "description": ""
+      },
+      {
+       "name": "Моцарела",
+       "portion": "50 гр.",
+       "price_eur": "2,30",
+       "price_bgn": "4,50",
+       "description": ""
+      },
+      {
+       "name": "Селекция от сирена",
+       "portion": "200 гр.",
+       "price_eur": "12,10",
+       "price_bgn": "23,70",
+       "description": "четири вида сирена, ядки, сушени плодове",
+       "featured": true
+      },
+      {
+       "name": "Филе „Елена“",
+       "portion": "50 гр.",
+       "price_eur": "2,30",
+       "price_bgn": "4,50",
+       "description": ""
+      },
+      {
+       "name": "Пастърма",
+       "portion": "50 гр.",
+       "price_eur": "2,30",
+       "price_bgn": "4,50",
+       "description": "",
+       "featured": true
+      },
+      {
+       "name": "Врат „Тракия“",
+       "portion": "50 гр.",
+       "price_eur": "2,30",
+       "price_bgn": "4,50",
+       "description": ""
+      },
+      {
+       "name": "Луканка",
+       "portion": "50 гр.",
+       "price_eur": "2,30",
+       "price_bgn": "4,50",
+       "description": ""
+      },
+      {
+       "name": "Колбасарско плато",
+       "portion": "200 гр.",
+       "price_eur": "11,10",
+       "price_bgn": "23,70",
+       "description": "",
+       "featured": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "deserti",
+   "title": "Десерти и ядки",
+   "groups": [
+    {
+     "title": "Десерти",
+     "items": [
+      {
+       "name": "Шоколадово суфле",
+       "portion": "160 гр.",
+       "price_eur": "3,68",
+       "price_bgn": "7,20",
+       "description": "с топка ванилов сладолед",
+       "featured": true
+      },
+      {
+       "name": "Домашна торта с „Нутела“",
+       "portion": "180 гр.",
+       "price_eur": "3,68",
+       "price_bgn": "7,20",
+       "description": "",
+       "featured": true
+      },
+      {
+       "name": "Сладоледена торта",
+       "portion": "150 гр.",
+       "price_eur": "3,02",
+       "price_bgn": "5,90",
+       "description": ""
+      },
+      {
+       "name": "Крем карамел",
+       "portion": "180 гр.",
+       "price_eur": "1,94",
+       "price_bgn": "3,80",
+       "description": ""
+      },
+      {
+       "name": "Крем брюле",
+       "portion": "180 гр.",
+       "price_eur": "1,94",
+       "price_bgn": "3,80",
+       "description": "",
+       "featured": true
+      },
+      {
+       "name": "Сладолед",
+       "portion": "180 гр.",
+       "price_eur": "1,94",
+       "price_bgn": "3,80",
+       "description": ""
+      }
+     ]
+    },
+    {
+     "title": "Ядки",
+     "items": [
+      {
+       "name": "Бадеми",
+       "portion": "100 гр.",
+       "price_eur": "2,56",
+       "price_bgn": "5,00",
+       "description": ""
+      },
+      {
+       "name": "Кашу",
+       "portion": "100 гр.",
+       "price_eur": "2,56",
+       "price_bgn": "5,00",
+       "description": ""
+      },
+      {
+       "name": "Шам фъстък",
+       "portion": "100 гр.",
+       "price_eur": "2,56",
+       "price_bgn": "5,00",
+       "description": "",
+       "featured": true
+      },
+      {
+       "name": "Лешници",
+       "portion": "100 гр.",
+       "price_eur": "2,56",
+       "price_bgn": "5,00",
+       "description": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "napitki",
+   "title": "Напитки",
+   "groups": [
+    {
+     "title": "Безалкохолни напитки",
+     "items": [
+      {
+       "name": "Продукти на „Coca-Cola“",
+       "portion": "250 мл",
+       "price_eur": "1,63",
+       "price_bgn": "3,20",
+       "description": ""
+      },
+      {
+       "name": "Сода",
+       "portion": "250 мл",
+       "price_eur": "1,32",
+       "price_bgn": "2,60",
+       "description": ""
+      },
+      {
+       "name": "Минерална вода „Девин“",
+       "portion": "500 мл",
+       "price_eur": "1,32",
+       "price_bgn": "2,60",
+       "description": ""
+      },
+      {
+       "name": "Минерална вода „Девин“",
+       "portion": "1500 мл",
+       "price_eur": "2,05",
+       "price_bgn": "4,00",
+       "description": ""
+      },
+      {
+       "name": "Плодов сок „Cappy“",
+       "portion": "250 мл",
+       "price_eur": "1,83",
+       "price_bgn": "3,60",
+       "description": ""
+      },
+      {
+       "name": "Айрян, чаша",
+       "portion": "200 мл",
+       "price_eur": "1,53",
+       "price_bgn": "3,00",
+       "description": ""
+      },
+      {
+       "name": "Айрян, кана",
+       "portion": "1000 мл",
+       "price_eur": "3,48",
+       "price_bgn": "6,80",
+       "description": "",
+       "featured": true
+      },
+      {
+       "name": "Домашна лимонада, чаша",
+       "portion": "400 мл",
+       "price_eur": "2,30",
+       "price_bgn": "4,50",
+       "description": ""
+      },
+      {
+       "name": "Домашна лимонада, кана",
+       "portion": "1000 мл",
+       "price_eur": "4,69",
+       "price_bgn": "9,00",
+       "description": "",
+       "featured": true
+      },
+      {
+       "name": "Студен чай „Nestea“",
+       "portion": "500 мл",
+       "price_eur": "2,30",
+       "price_bgn": "4,50",
+       "description": ""
+      },
+      {
+       "name": "Фреш",
+       "portion": "200 мл",
+       "price_eur": "2,15",
+       "price_bgn": "4,20",
+       "description": ""
+      },
+      {
+       "name": "Red Bull",
+       "portion": "250 мл",
+       "price_eur": "2,56",
+       "price_bgn": "5,00",
+       "description": ""
+      }
+     ]
+    },
+    {
+     "title": "Топли напитки",
+     "items": [
+      {
+       "name": "Кафе „Лаваца“",
+       "portion": "60 мл",
+       "price_eur": "1,53",
+       "price_bgn": "3,00",
+       "description": ""
+      },
+      {
+       "name": "Кафе без кофеин",
+       "portion": "60 мл",
+       "price_eur": "1,53",
+       "price_bgn": "3,00",
+       "description": ""
+      },
+      {
+       "name": "Фрапе",
+       "portion": "200 мл",
+       "price_eur": "2,30",
+       "price_bgn": "4,50",
+       "description": ""
+      },
+      {
+       "name": "Капучино",
+       "portion": "150 мл",
+       "price_eur": "2,55",
+       "price_bgn": "5,00",
+       "description": ""
+      },
+      {
+       "name": "Черен чай",
+       "portion": "200 мл",
+       "price_eur": "1,53",
+       "price_bgn": "3,00",
+       "description": ""
+      },
+      {
+       "name": "Сметана",
+       "portion": "7,5 мл",
+       "price_eur": "0,15",
+       "price_bgn": "0,30",
+       "description": ""
+      },
+      {
+       "name": "Мед",
+       "portion": "15 гр.",
+       "price_eur": "0,15",
+       "price_bgn": "0,30",
+       "description": ""
+      }
+     ]
+    },
+    {
+     "title": "Бира",
+     "items": [
+      {
+       "name": "Наливна бира „Шуменско“",
+       "portion": "330 мл",
+       "price_eur": "1,74",
+       "price_bgn": "3,40",
+       "description": "",
+       "featured": true
+      },
+      {
+       "name": "Наливна бира „Шуменско“",
+       "portion": "500 мл",
+       "price_eur": "2,04",
+       "price_bgn": "4,00",
+       "description": ""
+      },
+      {
+       "name": "Наливна бира „Будвайзер“",
+       "portion": "330 мл",
+       "price_eur": "2,05",
+       "price_bgn": "4,00",
+       "description": ""
+      },
+      {
+       "name": "Наливна бира „Будвайзер“",
+       "portion": "500 мл",
+       "price_eur": "2,40",
+       "price_bgn": "4,70",
+       "description": ""
+      },
+      {
+       "name": "„Пиринско“",
+       "portion": "500 мл",
+       "price_eur": "1,30",
+       "price_bgn": "3,70",
+       "description": ""
+      },
+      {
+       "name": "„Шуменско“",
+       "portion": "500 мл",
+       "price_eur": "1,34",
+       "price_bgn": "3,80",
+       "description": ""
+      },
+      {
+       "name": "„Туборг“",
+       "portion": "500 мл",
+       "price_eur": "2,15",
+       "price_bgn": "4,20",
+       "description": ""
+      },
+      {
+       "name": "„Карлсберг“",
+       "portion": "500 мл",
+       "price_eur": "2,45",
+       "price_bgn": "4,80",
+       "description": ""
+      },
+      {
+       "name": "„Будвайзер“",
+       "portion": "500 мл",
+       "price_eur": "2,96",
+       "price_bgn": "5,80",
+       "description": ""
+      },
+      {
+       "name": "„Ердингер“",
+       "portion": "500 мл",
+       "price_eur": null,
+       "price_bgn": null,
+       "description": ""
+      },
+      {
+       "name": "„Хайнекен“",
+       "portion": "330 мл",
+       "price_eur": "2,66",
+       "price_bgn": "5,20",
+       "description": ""
+      },
+      {
+       "name": "„Бекс“",
+       "portion": "330 мл",
+       "price_eur": null,
+       "price_bgn": null,
+       "description": ""
+      },
+      {
+       "name": "„Стела Артоа“",
+       "portion": "330 мл",
+       "price_eur": "2,66",
+       "price_bgn": "5,20",
+       "description": ""
+      },
+      {
+       "name": "Сайдер „Самърсби“",
+       "portion": "330 мл",
+       "price_eur": "2,45",
+       "price_bgn": "4,80",
+       "description": ""
+      }
+     ]
+    },
+    {
+     "title": "Ракии",
+     "items": [
+      {
+       "name": "„Бургас 63“ барел",
+       "portion": "50 мл",
+       "price_eur": "2,35",
+       "price_bgn": "4,60",
+       "description": ""
+      },
+      {
+       "name": "„Бургас 63“",
+       "portion": "50 мл",
+       "price_eur": "2,16",
+       "price_bgn": "4,20",
+       "description": ""
+      },
+      {
+       "name": "„Сливенска перла“",
+       "portion": "50 мл",
+       "price_eur": "2,16",
+       "price_bgn": "4,20",
+       "description": ""
+      },
+      {
+       "name": "Ракия „Кехлибар“",
+       "portion": "50 мл",
+       "price_eur": "2,46",
+       "price_bgn": "4,80",
+       "description": ""
+      },
+      {
+       "name": "„Сунгурларска“ специална",
+       "portion": "50 мл",
+       "price_eur": "2,16",
+       "price_bgn": "4,20",
+       "description": ""
+      },
+      {
+       "name": "„Сунгурларска“",
+       "portion": "50 мл",
+       "price_eur": "1,87",
+       "price_bgn": "3,60",
+       "description": ""
+      },
+      {
+       "name": "„Кайлъшка“",
+       "portion": "50 мл",
+       "price_eur": "1,87",
+       "price_bgn": "3,60",
+       "description": ""
+      },
+      {
+       "name": "„Стралджанска“",
+       "portion": "50 мл",
+       "price_eur": "2,16",
+       "price_bgn": "4,20",
+       "description": ""
+      },
+      {
+       "name": "Кайсиева ракия",
+       "portion": "50 мл",
+       "price_eur": "1,87",
+       "price_bgn": "3,60",
+       "description": ""
+      },
+      {
+       "name": "Крушова ракия",
+       "portion": "50 мл",
+       "price_eur": "1,87",
+       "price_bgn": "3,60",
+       "description": ""
+      },
+      {
+       "name": "„Карнобатска“ мускатова",
+       "portion": "50 мл",
+       "price_eur": "2,24",
+       "price_bgn": "4,40",
+       "description": ""
+      },
+      {
+       "name": "„Карнобатска“ гроздова",
+       "portion": "50 мл",
+       "price_eur": "1,87",
+       "price_bgn": "3,60",
+       "description": ""
+      },
+      {
+       "name": "„Троянска“ сливова, отлежала",
+       "portion": "50 мл",
+       "price_eur": "2,16",
+       "price_bgn": "4,20",
+       "description": "",
+       "featured": true
+      },
+      {
+       "name": "„Троянска“ сливова",
+       "portion": "50 мл",
+       "price_eur": "1,87",
+       "price_bgn": "3,60",
+       "description": ""
+      },
+      {
+       "name": "„Пещерска“ мускатова",
+       "portion": "50 мл",
+       "price_eur": "2,86",
+       "price_bgn": "5,60",
+       "description": "",
+       "featured": true
+      },
+      {
+       "name": "„Пещерска“ отлежала",
+       "portion": "50 мл",
+       "price_eur": "2,16",
+       "price_bgn": "4,20",
+       "description": ""
+      },
+      {
+       "name": "„Пещерска“ гроздова",
+       "portion": "50 мл",
+       "price_eur": "1,87",
+       "price_bgn": "3,60",
+       "description": ""
+      },
+      {
+       "name": "„Поморийска“ мускатова",
+       "portion": "50 мл",
+       "price_eur": "2,16",
+       "price_bgn": "4,20",
+       "description": ""
+      },
+      {
+       "name": "„Поморийска“",
+       "portion": "50 мл",
+       "price_eur": "1,87",
+       "price_bgn": "3,60",
+       "description": ""
+      }
+     ]
+    },
+    {
+     "title": "Алкохолни напитки",
+     "items": [
+      {
+       "name": "Водка „Flirt“, „Savoy“, „Търговище“",
+       "portion": "50 мл",
+       "price_eur": "1,85",
+       "price_bgn": "3,60",
+       "description": ""
+      },
+      {
+       "name": "Водка „Absolut“, „Finlandia“, „Руски стандарт“",
+       "portion": "50 мл",
+       "price_eur": "2,46",
+       "price_bgn": "4,80",
+       "description": ""
+      },
+      {
+       "name": "Водка „Beluga“, „Grey Goose“",
+       "portion": "50 мл",
+       "price_eur": "5,06",
+       "price_bgn": "9,90",
+       "description": ""
+      },
+      {
+       "name": "Джин „Savoy“, „6 Sense“",
+       "portion": "50 мл",
+       "price_eur": "1,85",
+       "price_bgn": "3,60",
+       "description": ""
+      },
+      {
+       "name": "Джин „Beefeater“, „Gordon’s“",
+       "portion": "50 мл",
+       "price_eur": "1,85",
+       "price_bgn": "3,60",
+       "description": ""
+      },
+      {
+       "name": "Коняк „Плиска“",
+       "portion": "50 мл",
+       "price_eur": "1,85",
+       "price_bgn": "3,60",
+       "description": ""
+      },
+      {
+       "name": "Коняк „Martell VS“, „Courvoisier“",
+       "portion": "50 мл",
+       "price_eur": "3,48",
+       "price_bgn": "6,80",
+       "description": ""
+      },
+      {
+       "name": "Уиски „Black Ram“, „Savoy“",
+       "portion": "50 мл",
+       "price_eur": "1,85",
+       "price_bgn": "3,60",
+       "description": ""
+      },
+      {
+       "name": "Уиски „Jameson“, „Johnnie Walker“, „Bushmills“, „Ballantine’s“, „Tullamore Dew“, „Jim Beam“",
+       "portion": "50 мл",
+       "price_eur": "2,46",
+       "price_bgn": "4,80",
+       "description": ""
+      },
+      {
+       "name": "Уиски „Jack Daniel’s“, „Cardhu“, „Dimple“, „Chivas Regal“",
+       "portion": "50 мл",
+       "price_eur": "4,30",
+       "price_bgn": "8,40",
+       "description": ""
+      },
+      {
+       "name": "„Bailey’s“",
+       "portion": "50 мл",
+       "price_eur": "2,46",
+       "price_bgn": "4,80",
+       "description": ""
+      },
+      {
+       "name": "Мастика „Пещера“",
+       "portion": "50 мл",
+       "price_eur": "1,85",
+       "price_bgn": "3,60",
+       "description": ""
+      },
+      {
+       "name": "Узо „Paralia“",
+       "portion": "50 мл",
+       "price_eur": "1,96",
+       "price_bgn": "3,80",
+       "description": ""
+      },
+      {
+       "name": "Узо „Plomari“, „Ouzo 12“",
+       "portion": "50 мл",
+       "price_eur": "2,46",
+       "price_bgn": "4,80",
+       "description": ""
+      },
+      {
+       "name": "Узо „Plomari“, „Ouzo 12“",
+       "portion": "200 мл",
+       "price_eur": "8,08",
+       "price_bgn": "15,80",
+       "description": ""
+      },
+      {
+       "name": "Перно / Рикар",
+       "portion": "50 мл",
+       "price_eur": "2,46",
+       "price_bgn": "4,80",
+       "description": ""
+      },
+      {
+       "name": "Мента „Пещера“",
+       "portion": "50 мл",
+       "price_eur": "1,85",
+       "price_bgn": "3,60",
+       "description": ""
+      },
+      {
+       "name": "Мента „Marie Brizard“",
+       "portion": "50 мл",
+       "price_eur": null,
+       "price_bgn": null,
+       "description": ""
+      },
+      {
+       "name": "Ром „Atlantic“, „Captain Fred“",
+       "portion": "50 мл",
+       "price_eur": "1,85",
+       "price_bgn": "3,60",
+       "description": ""
+      },
+      {
+       "name": "Вермут",
+       "portion": "50 мл",
+       "price_eur": "1,85",
+       "price_bgn": "3,60",
+       "description": ""
+      },
+      {
+       "name": "Мартини",
+       "portion": "50 мл",
+       "price_eur": "1,96",
+       "price_bgn": "3,80",
+       "description": ""
+      },
+      {
+       "name": "„Jägermeister“",
+       "portion": "30 мл",
+       "price_eur": "1,96",
+       "price_bgn": "3,80",
+       "description": ""
+      },
+      {
+       "name": "Лимончело",
+       "portion": "30 мл",
+       "price_eur": "1,96",
+       "price_bgn": "3,80",
+       "description": ""
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
